@@ -8,16 +8,16 @@ const Nav = () => (
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/pizzas/">Pizzas</Link>
+        <Link to="/Pizzas/">Pizzas</Link>
       </li>
       <li>
         <Link to="/">LOGO</Link>
       </li>
       <li>
-        <Link to="/slicemasters">Slicemasters</Link>
+        <Link to="/Slicemasters">Slicemasters</Link>
       </li>
       <li>
-        <Link to="/order">Order</Link>
+        <Link to="/Order">Order</Link>
       </li>
     </ul>
   </nav>
