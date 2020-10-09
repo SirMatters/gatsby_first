@@ -1,5 +1,10 @@
 import React from 'react';
+import Layout from '../components/Layout';
 
-const Slicemasters = () => <div> Welcome to the home page</div>;
+const Slicemasters = () => (
+  <Layout>
+    <p>This is a slicemasters page</p>
+  </Layout>
+);
 
 export default Slicemasters;

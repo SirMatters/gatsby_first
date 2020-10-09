@@ -1,11 +1,10 @@
 import React from 'react';
-import Nav from '../components/Nav';
+import Layout from '../components/Layout';
 
 const Home = () => (
-  <>
-    <Nav />
+  <Layout>
     <div>Welcome to the home page</div>
-  </>
+  </Layout>
 );
 
 export default Home;
