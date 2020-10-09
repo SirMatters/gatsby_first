@@ -1,10 +1,5 @@
 import React from 'react';
-import Layout from '../components/Layout';
 
-const Slicemasters = () => (
-  <Layout>
-    <p>This is a slicemasters page</p>
-  </Layout>
-);
+const Slicemasters = () => <p>This is a slicemasters page</p>;
 
 export default Slicemasters;
