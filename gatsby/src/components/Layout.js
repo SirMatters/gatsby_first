@@ -4,11 +4,13 @@ import Nav from './Nav';
 
 import 'normalize.css';
 import GlobalStyles from '../styles/GlobalStyles';
+import Typography from '../styles/Typography';
 
 const Layout = ({ children }) => (
   <>
     <Nav />
     <GlobalStyles />
+    <Typography />
     {children}
     <Footer />
   </>
