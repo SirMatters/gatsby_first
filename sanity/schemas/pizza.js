@@ -1,6 +1,5 @@
-import { FaObjectGroup } from 'react-icons/fa';
 import { MdLocalPizza as icon } from 'react-icons/md';
-import topping from './topping';
+import PriceInput from '../components/PriceInput';
 
 export default {
   // computer name
@@ -37,9 +36,9 @@ export default {
       name: 'price',
       title: 'Price',
       type: 'number',
+      inputComponent: PriceInput,
       description: 'Price of the pizza in cents',
       validation: (Rule) => Rule.min(1000).max(50000),
-      // TODO: Add custom component
     },
     {
       name: 'toppings',
